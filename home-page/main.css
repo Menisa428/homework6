@@ -28,7 +28,14 @@ a {
 }
 
 /*=================== NAV ===================*/
-.nav-container {
+.nav-container img {
+  width: 700px;
+  justify-content: center
+ 
+  
+;
+
+  
   
 
 }
