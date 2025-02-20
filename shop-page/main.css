@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+/*=================== BASE ===================*/
+:root {
+  --dark-gray: #2f2f2f;
+  --light-gray: #6a6a6a;
+  --blue: #2f4d76;
+  --yellow: #FFD700;
+  --box-bgcolor: #70817b22;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", serif;
+  background-color: #EFF2F1;
+  color: var(--light-gray);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/*=================== NAV ===================*/
+
+/*=================== MAIN ===================*/
+
+/*=================== RESPONSIVE DESIGN ===================*/
