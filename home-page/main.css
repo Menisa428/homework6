@@ -28,13 +28,13 @@ a {
 }
 
 /*=================== NAV ===================*/
-<<<<<<< HEAD
+
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 50px;
-=======
+  padding: 20px 50px;}
+
 .nav-container img {
   width: 700px;
   justify-content: center
@@ -44,7 +44,7 @@ header {
 
   
   
->>>>>>> 931fde4182e075ad5e72f1d047b0616c1dd569bb
+
 
 }
 .logo {
