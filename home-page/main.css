@@ -37,9 +37,21 @@ header {
   padding: 20px 50px;}
 
 
+
  
+header i{
+  padding: -50px;
+  
+  font-size: 35px;
+  
+}
 
 
+.btn-cart{
+  position: absolute;
+
+  
+}
 
 .nav-container img {
   width: 700px;

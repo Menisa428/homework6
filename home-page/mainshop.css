@@ -10,6 +10,7 @@
 }
 
 * {
+  background-color: #2f4d76;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -28,6 +29,16 @@ ul {
 a {
   color: #ffffff;
   text-decoration: none;
+}
+nav li{
+  /*burayı yapamadım ana sayfadakının aynısını yazdıgımda aynısı olmuyor */
+  display: flex;
+ 
+
+  
+  
+  
+  
 }
 
 /*=================== NAV ===================*/
