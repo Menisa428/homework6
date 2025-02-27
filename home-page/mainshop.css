@@ -48,16 +48,20 @@ nav ul {
   margin: right 20px;
   color: white;
 }
-.topic ul {
-  display: flex;
-  color: white;
+
+.main-class li{
+  background-color: red;
+  /* renk dursun ne oldugu bellı olsun sılerız sonra */
 }
 nav .logo{
   color:white;
 }
 .products {
   display: flex;
+  text-align: center;
+
 }
+
 
 /*=================== NAV ===================*/
 
