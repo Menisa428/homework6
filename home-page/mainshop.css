@@ -10,7 +10,6 @@
 }
 
 * {
-  background-color: #2f4d76;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -18,7 +17,7 @@
 
 body {
   font-family: "Inter", serif;
-  background-color: #EFF2F1;
+  background-color:white; 
   color: var(--light-gray);
 }
 
@@ -27,18 +26,37 @@ ul {
 }
 
 a {
-  color: #ffffff;
   text-decoration: none;
 }
-nav li{
-  /*burayı yapamadım ana sayfadakının aynısını yazdıgımda aynısı olmuyor */
+nav a {
+  color: white;
   display: flex;
- 
-
+  margin: right 20px;
+}
+nav li{
+  display: flex;
+  color: white;
   
-  
-  
-  
+}
+.main-class {
+  background-color: #2f4d76;
+  color: white;
+}
+nav ul {
+  display: flex;
+  gap: 20px;
+  margin: right 20px;
+  color: white;
+}
+.topic ul {
+  display: flex;
+  color: white;
+}
+nav .logo{
+  color:white;
+}
+.products {
+  display: flex;
 }
 
 /*=================== NAV ===================*/
