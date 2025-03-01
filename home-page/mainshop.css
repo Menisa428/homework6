@@ -50,7 +50,7 @@ nav ul  {
 }
 
 .main-class li{
-  background-color: red;
+  background-color: #2f4d76;
   /* renk dursun ne oldugu bellı olsun sılerız sonra */
 }
 nav .logo{
@@ -59,11 +59,30 @@ nav .logo{
 .products {
   display: flex;
   text-align: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
 
 }
 .eklebutonu{
   display: center;
   font-size: 20px;
+}
+@media (max-width:768px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 100%;
+    font-size: small;
+  }
+  @media (max-width:768px) {
+    .products img {
+   width: 100%;;
+
+
+    }
+    
+  }
 }
 
 
