@@ -87,7 +87,7 @@ nav ul{
 nav img{
   
   height: 10%;
-  width: 15%;
+  width: 10%;
 }
 
 
@@ -182,6 +182,7 @@ main{
   height: 300px;
   width: 400px;
   right: 200px;
+  opacity: 0.1;
 }
 .anaresim{
   height: 500px;
@@ -197,26 +198,30 @@ main{
     left: 0;
     font-size: small;
   }
-    
+  .logo .img {
+    width: 50%;
+  }
   
-
+}
     
-@media (max-width: 1200px) {
+@media (max-width: 500px) {
   .Home {
     flex-direction: column-reverse;
+    display: flex;
   }
 
   .Home .sol {
     width: 90%; 
+    left: 0;
   }
 
   .Home .right .arkaplan {
-    width: 50%; 
+    width: 30%; 
     right: 10%; 
   }
 
   .Home .right .anaresim {
-    width: 80%; 
+    width: 70%; 
     height: auto; 
   }
 }
@@ -225,10 +230,14 @@ main{
   .Home {
     flex-direction: column-reverse;
     text-align: center;
+    font-size: small;
   }
 
   .Home .sol {
     width: 100%; 
+  }
+  .Home .sag {
+    text-align: left;
   }
 
   .Home .sag .arkaplan {
@@ -242,8 +251,6 @@ main{
   }
 }
 
-    
-  }
 
 
 
