@@ -241,8 +241,9 @@ main{
   }
 
   .Home .sag .arkaplan {
-    width: 60%; 
-    right: 0; 
+    width: 40%; 
+    height: 20%;
+    /*right: 0; */
   }
 
   .Home .sag .anaresim {

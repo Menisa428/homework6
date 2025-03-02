@@ -1,7 +1,7 @@
 let cartCount=0;
 function addToCart(){
     cartCount++;
-    const CartIcon=document.getElementsByClassName("shop-button");
+    const CartIcon=document.getElementsById("item-count");
       if(cartCount>=9){
         CartIcon.style.backgroundColor="red";
       }
@@ -20,3 +20,4 @@ listem.forEach((element) => {
 for(let i=0;i<listem.length;i++){
     listem[i].addEventListener("click",addToCart)
 }
+/*js kodumuzun neden çalışmadığını anlamadık ,dönüt yapabilir misiniz*/
